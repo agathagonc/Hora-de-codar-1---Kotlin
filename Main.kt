@@ -2,12 +2,20 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
 
-    print("Digite o seu nome.")
+    //Solicita o nome do usuario
+
+    print("Digite seu nome:")
 
     var nome = readln()
 
-    print("Olá $nome!")
+    //Solicita a idade do usuario
 
+    print("Digite sua idade é:")
 
+    var idade = readln()
+
+    //Exibe a idade formatada
+
+    print("Olá $nome, sua idade é:")
 
 }
