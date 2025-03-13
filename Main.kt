@@ -1,15 +1,13 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main(){
+fun main() {
 
-    var nome_do_carro = "Fusca"
+    print("Digite o seu nome.")
 
-    print("O nome do carro é:" +
-            "$nome_do_carro")
+    var nome = readln()
+
+    print("Olá $nome!")
 
 
 
 }
-
-
-
